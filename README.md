@@ -5,8 +5,8 @@
 1.  Clone the repo
 
 ```bash
-$ git clone git@github.com:021NIS/Kundelik.git
-$ cd Kundelik
+$ git clone git@github.com:021NIS/Baspana.git
+$ cd Baspana
 $ rm -rf .git
 $ git init
 ```
