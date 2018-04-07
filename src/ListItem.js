@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, TouchableHighlight, Text } from 'react-native';
+import {
+  Image,
+  StyleSheet,
+  View,
+  TouchableHighlight,
+  Text
+} from 'react-native';
 
 class ListItem extends Component {
   onPress = () => {
@@ -12,6 +18,11 @@ class ListItem extends Component {
       <TouchableHighlight onPress={this.onPress} underlayColor="#dddddd">
         <View>
           <View style={styles.rowContainer}>
+            <Image
+              style={styles.thumb}
+              source={item.image}
+              resizeMode="contain"
+            />
             <View style={styles.textContainer}>
               <Text style={styles.price}>{item.price}</Text>
               <Text style={styles.title} numberOfLines={1}>

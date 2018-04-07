@@ -6,19 +6,22 @@ const houses = [
     city: 'london',
     title: 'Ауезова 165',
     price: '20 000 000 тг',
-    description: 'Прекрасный дом'
+    description: 'Прекрасный дом',
+    image: require('./assets/house.png')
   },
   {
     city: 'london',
     title: 'Жамбыла 159',
     price: '30 000 000 тг',
-    description: 'Магазин рядом'
+    description: 'Магазин рядом',
+    image: require('./assets/house.png')
   },
   {
     city: 'almaty',
     title: 'Дом в Алматы',
     price: '10 000 000 тг',
-    description: 'Отличное КСК'
+    description: 'Отличное КСК',
+    image: require('./assets/house.png')
   }
 ];
 
@@ -30,7 +33,7 @@ class SearchPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchString: 'london'
+      searchString: 'London'
     };
   }
 
