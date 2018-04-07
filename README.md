@@ -24,4 +24,6 @@ You already have search & search results pages implemented.
 
 * Implement detail view for selected result item
 
-![Search Page](https://github.com/021NIS/Baspana/blob/master/images/home.png) ![Search Results](https://github.com/021NIS/Baspana/blob/master/images/results.png) ![Search Detail](https://github.com/021NIS/Baspana/blob/master/images/detail.png)
+| Home                                                                          | Results                                                                             | Detail                                                                            |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| ![Search Page](https://github.com/021NIS/Baspana/blob/master/images/home.png) | ![Search Results](https://github.com/021NIS/Baspana/blob/master/images/results.png) | ![Search Detail](https://github.com/021NIS/Baspana/blob/master/images/detail.png) |
