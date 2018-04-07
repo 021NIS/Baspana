@@ -11,17 +11,19 @@ $ rm -rf .git
 $ git init
 ```
 
-2.  Install dependencies from [npm](https://www.npmjs.com) or [yarn](https://yarnpkg.com/lang/en/)
+2.  Install dependencies from [npm](https://www.npmjs.com)
 
 ```bash
-$ npm install or yarn install
+$ npm install
 $ react-native run-ios (or run-android)
 ```
 
-3.  Tasks
+3.  Home Work
 
-You already have search & search results pages implemented. Now you need to implement detail view for selected result item.
+You already have search & search results pages implemented.
 
-![Search Page]()
-![Search Results]()
-![Search Detail]()
+* Implement detail view for selected result item
+
+![Search Page](https://github.com/021NIS/Baspana/blob/master/images/home.png)
+![Search Results](https://github.com/021NIS/Baspana/blob/master/images/results.png)
+![Search Detail](https://github.com/021NIS/Baspana/blob/master/images/detail.png)
