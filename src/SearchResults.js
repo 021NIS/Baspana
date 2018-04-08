@@ -8,8 +8,8 @@ class SearchResults extends Component {
   };
 
   onPressItem = index => {
-    console.log('Pressed row: ', index);
-    // TODO: Перенаправить в новый компонент
+    const { navigate, state } = this.props.navigation;
+    navigate('Property', { property: state.params.listings[index] });
   };
 
   keyExtractor = (item, index) => index;
